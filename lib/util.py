@@ -23,7 +23,7 @@ def scantree(path):
             yield entry
 
 
-def clip_text(text, max_length):
+def clip_text(text, max_length=128):
     if len(text) > max_length:
         length = max_length//2 - 3
         if length < 1:
