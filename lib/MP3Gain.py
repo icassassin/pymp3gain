@@ -179,8 +179,7 @@ class MP3Gain(object):
             while tag_line is None:
                 tag_line = self.process_results.get(block=block, timeout=timeout)
                 line = tag_line[1][0:7]
-                # jesus fucking christ; I kind of fucking hate the person who wrote mp3gain right now
-                # I shouldn't have to parse this much fucking bullshit.
+                # Parsing is pretty weird here. Just sorta brute-forcing my way through this.
                 if line in ["Applyin", "No chan", "\"Album\"", "\n", "...but "]:
                     tag_line = None
 
