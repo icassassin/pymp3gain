@@ -38,3 +38,9 @@ Then just run pymp3gain:
 ``
 python3 pymp3gain.py
 ``
+## Contributing
+If you find a bug, feel free to open an issue. Or feel free to fork and improve the code.
+
+## Licensing
+This code is licensed under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
+
