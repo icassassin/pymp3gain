@@ -9,12 +9,12 @@ from PyQt5 import QtCore
 from PyQt5.QtWidgets import QMainWindow, QWidget, QVBoxLayout, QAction, QFileDialog, \
     QSizePolicy, QHBoxLayout, QGroupBox, QProgressDialog, QMessageBox
 
-from gui.PyMP3List import PyMP3List
-from gui.ValueEntry import ValueEntry
-from gui.PyMP3GainStatus import PyMP3GainStatus
-from gui.PreferencesDialog import PreferencesDialog
+from . import PyMP3List
+from . import ValueEntry
+from . import PyMP3GainStatus
+from . import PreferencesDialog
 
-from lib.MP3Gain import MP3Gain
+from lib import MP3Gain
 
 PREF_DIR = os.path.expanduser("~/.config/pymp3gain/")
 PREF_FILE = "pymp3gain.conf"

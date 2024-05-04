@@ -3,7 +3,7 @@ import copy
 from PyQt5 import QtCore
 from PyQt5.QtWidgets import QDialog, QDialogButtonBox, QVBoxLayout
 
-from gui.ValueEntry import ValueEntry
+from . import ValueEntry
 
 
 class PreferencesDialog(QDialog):

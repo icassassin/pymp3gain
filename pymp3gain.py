@@ -6,9 +6,9 @@ import argparse
 from PyQt5 import QtCore
 from PyQt5.QtWidgets import QApplication
 
-from gui.PyMP3GainApp import PyMP3GainApp
+from gui import PyMP3GainApp
 
-VER = "0.2.8"
+VER = "0.2.9"
 script_path = os.path.dirname(os.path.abspath(__file__))
 
 
